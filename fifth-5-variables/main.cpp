@@ -41,13 +41,11 @@ int main()
 				  cout << "Year: ";
 				  cin >> year;
 
-				  CPerson big(surname, name, patronymic, country, year);
-
-				  /*big.setSurName(surname);
+				  big.setSurName(surname);
 				  big.setName(name);
 				  big.setPatronymic(patronymic);
 				  big.setCountry(country);
-				  big.setYear(year);*/
+				  big.setYear(year);
 
 				  cout << big.getSurName() << '\t';
 				  cout << big.getName() << '\t';
@@ -70,13 +68,13 @@ int main()
 				  cin >> year;
 
 				  CPerson* One;
-				  One = new CPerson(surname, name, patronymic, country, year);
+				  One = new CPerson(("Orwell", "George", "Arthur", "Britain", 1903);
 
-				  /*One->setSurName(surname);
+				  One->setSurName(surname);
 				  One->setName(name);
 				  One->setPatronymic(patronymic);
 				  One->setCountry(country);
-				  One->setYear(year);*/
+				  One->setYear(year);
 
 				  cout << One->getSurName() << '\t';
 				  cout << One->getName() << '\t';
