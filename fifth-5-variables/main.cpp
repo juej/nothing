@@ -68,7 +68,7 @@ int main()
 				  cin >> year;
 
 				  CPerson* One;
-				  One = new CPerson(("Orwell", "George", "Arthur", "Britain", 1903);
+				  One = new CPerson("Orwell", "George", "Arthur", "Britain", 1903);
 
 				  One->setSurName(surname);
 				  One->setName(name);
