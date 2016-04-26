@@ -9,7 +9,7 @@ public:
 	// конструктор по умолчанию
 	CPerson();
 	// конструктор с параметрами
-	CPerson(char*, char*, int);
+	CPerson(char*, char[], int);
 	// конструктор копирования
 	CPerson(CPerson&);
 	// деструктор

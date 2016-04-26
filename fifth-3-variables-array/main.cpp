@@ -12,9 +12,10 @@ int main()
 		cout << "3 create new object" << endl;
 		cout << "0 exit" << endl;
 		cin >> i;
-		char* name = new char[20];
+
+		char name[20];
 		char* surname = new char[20];
-		int year = 1903;
+		int year;
 		switch (i)
 		{
 		case 1:

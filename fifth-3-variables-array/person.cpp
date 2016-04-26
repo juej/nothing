@@ -11,7 +11,7 @@ CPerson::CPerson()
 }
 
 // конструктор с параметрами
-CPerson::CPerson(char* s, char* n, int y) 
+CPerson::CPerson(char* s, char n[], int y) 
 : m_pSurName(new char[strlen(s) + 1])
 , m_year(y)
 // для фамилии нужно выделить столько байтов,  сколько занимает параметр s,
